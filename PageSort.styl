@@ -1,0 +1,56 @@
+.paging_menu
+	margin:10px 5px 2px 5px
+	height:30px
+	padding-left:10px
+	padding-right:10px
+	vertical-align:middle
+
+	.first, .prev, .pg, .next, .last, .range
+		float:left
+	.direct, .go
+		float:right
+	.prev.clk
+		margin-right:10px
+	.next.clk
+		margin-left:10px
+	.clk
+		border-radius: 4px 4px 4px 4px
+		background-color:#eee
+		padding:0px 5px 0px 5px
+		margin-left:2px
+		height: 22px
+		line-height:22px
+		cursor:pointer
+	.clk.pg.current
+		background-color:#ccf
+	.clk:hover
+		background-color:#ddf
+	.clk:active
+		background-color:#99f
+		color:#fff
+	.clk.disabled
+		background-color:#ddd
+		color:#a9a9a9
+		cursor:default
+	.clk.disabled:hover
+		background-color:#ddd
+		color:#a9a9a9
+	.clk.disabled:active
+		background-color:#ddd
+		color:#a9a9a9
+	.range
+		padding:0px 5px 0px 5px
+		height: 22px
+		line-height:22px
+		padding-left:20px
+	.range span
+		vertical-align:middle
+		display:inline
+	.direct input
+		width:30px
+	.range .current,	.range .total
+		font-weight:bold
+	body input[name="go_to_age"]
+		padding:0px
+		margin:0px
+		line-height:1
