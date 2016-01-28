@@ -27,7 +27,7 @@ _statics = ()-> # use with .bind()
 			will_return.order = first_character
 			will_return.defaulted_order = false
 		else
-			will_return.field = sort
+			will_return.field = short_form_sort
 
 		return will_return
 	this.parse_sorts = (short_form_sorts)=>
