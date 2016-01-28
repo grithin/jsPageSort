@@ -91,7 +91,7 @@ _statics = ()-> # use with .bind()
 			#++ make the menu {
 			if this.page != 1
 				paging_menu.append('<div class="clk first">&lt;&lt;</div><div class="clk prev">&nbsp;&lt;&nbsp;</div>')
-			for i in [start...end]
+			for i in [start..end]
 				special_class = if i == this.page then ' current' else ''
 				paging_menu.append('<div class="clk pg' + special_class + '">' + i + '</div>')
 			if this.page != this.pages
